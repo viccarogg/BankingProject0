@@ -3,4 +3,15 @@
   <groupId>com.george.banking</groupId>
   <artifactId>project0</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/com.oracle.jdbc/ojdbc8 -->
+	  <dependency>
+	    <groupId>com.oracle.jdbc</groupId>
+	    <artifactId>ojdbc8</artifactId>
+	    <version>12.2.0.1</version>
+	    <scope>system</scope>
+	    <systemPath>C:\Users\George\Downloads\ojdbc8.jar</systemPath>
+	  </dependency>
+	</dependencies>
 </project>

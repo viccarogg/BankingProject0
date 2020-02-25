@@ -1,4 +1,4 @@
-package com.george.banking;
+package com.george.banking.model;
 
 import java.io.Serializable;
 
@@ -7,6 +7,7 @@ public class Account implements Serializable {
 	private double balance;
 	private int id;
 	private boolean is_application;
+	private int owner_id;
 	
 	public Account(int id, String name, double balance, boolean is_app) {
 		super();
@@ -15,8 +16,28 @@ public class Account implements Serializable {
 		this.id = id;
 		this.is_application = is_app;
 	}
+	public Account(int id, String name, double balance, boolean is_app, int owner_id) {
+		super();
+		this.name = name;
+		this.balance = balance;
+		this.id = id;
+		this.is_application = is_app;
+		this.owner_id = owner_id;
+	}
 	
-	public boolean isIs_application() {
+	public Account(String name, double balance, boolean is_app) {
+		this.name=name;
+		this.balance=balance;
+		this.is_application=is_app;
+	}
+	
+	public int getOwner_id() {
+		return owner_id;
+	}
+	public void setOwner_id(int owner_id) {
+		this.owner_id = owner_id;
+	}
+	public boolean getIs_application() {
 		return is_application;
 	}
 
@@ -47,7 +68,7 @@ public class Account implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Account [name=" + name + ", balance=" + balance + "]";
+		return "ID: " + id + " - Account Name: " + name + " - Balance: " + balance;
 	}
 
 	@Override

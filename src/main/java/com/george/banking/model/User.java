@@ -1,4 +1,4 @@
-package com.george.banking;
+package com.george.banking.model;
 
 import java.io.Serializable;
 
@@ -7,14 +7,41 @@ public class User implements Serializable {
 	private String username;
 	private String password;
 	private int id;
+	private int type = 0;
 	
+	public User(int id, String username, String password, String type) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.id = id;
+		if(type.equals("Customer"))
+			this.type=1;
+		else if(type.equals("Employee"))
+			this.type=2;
+	}
 	public User(int id, String username, String password) {
 		super();
 		this.username = username;
 		this.password = password;
 		this.id = id;
 	}
+	public User(int id, String username, String password, int type) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.id = id;
+		this.type=type;
+	}
 	
+	public int getType() {
+		return type;
+	}
+	public void setType(int type) {
+		this.type = type;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	// getters and setters, don't want to be able to change id
 	public int getId() {
 		return id;
@@ -29,17 +56,16 @@ public class User implements Serializable {
 	
 	// not sure whether these should be protected, or even methods at all. 
 	// TODO some form of password protection, being able to get a plain text password is not safe
-	protected String getPassword() {
+	public String getPassword() {
 		return password;
 	}
-	protected void setPassword(String password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
 	
-	// only want to display username and id of a user account
 	@Override
 	public String toString() {
-		return "User [username=" + username + ", id=" + id + "]";
+		return "User [username=" + username + ", password=" + password + ", id=" + id + ", type=" + type + "]";
 	}
 	@Override
 	public int hashCode() {
