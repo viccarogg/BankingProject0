@@ -68,7 +68,7 @@ public class Account implements Serializable {
 
 	@Override
 	public String toString() {
-		return "ID: " + id + " - Account Name: " + name + " - Balance: " + balance;
+		return "ID: " + id + "\t- Account Name: " + name + "           \t- Balance: " + balance;
 	}
 
 	@Override

@@ -19,12 +19,15 @@ public class App {
 		Scanner sc = new Scanner(System.in);
 		String input = null;
 		Session current = new Session(null);
-		System.out.println("------------------------------------------------------------");
-		System.out.println("|       WECLOME TO THE FIRST NATIONAL BANK OF GEORGE       |");
-		System.out.println("------------------------------------------------------------");
+//		System.out.println("------------------------------------------------------------");
+//		System.out.println("|       WECLOME TO THE FIRST NATIONAL BANK OF GEORGE       |");
+//		System.out.println("------------------------------------------------------------");
+		SystemOperations.displayLogo();
 		do {
-			
+
+			System.out.println("------------------------------------------------------------");
 			System.out.println("Menu");
+			System.out.println("------------------------------------------------------------");
 			System.out.println("1 - Login");
 			System.out.println("2 - Register as a Customer");
 			System.out.println("3 - Exit");
@@ -62,11 +65,15 @@ public class App {
 			}
 			else if(input.equals("3")) {
 				System.out.println("Thank you for banking with us.");
+				SystemOperations.exitBank();
 				break;
 			}
 			else {
 				System.out.println("Please select a valid option \n");
 				continue;
+			}
+			if(current.getCurrentUser()!= null) {
+				SystemOperations.loginUser(current.getCurrentUser());
 			}
 			do {
 				// user has been logged in. loop until they log out

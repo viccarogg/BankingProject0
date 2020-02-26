@@ -1,0 +1,94 @@
+2020-02-25 14:29:20,610 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 14:29:27,188 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:29:33,283 TRACE c.g.b.SystemOperations [main] Employee viewed all Customers
+2020-02-25 14:29:33,283 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:29:34,644 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 14:30:06,053 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 14:30:21,359 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:30:24,325 TRACE c.g.b.SystemOperations [main] 
+2020-02-25 14:30:24,325 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:30:29,070 ERROR c.g.b.SystemOperations [main] Employee 1 did not input a valid number.
+2020-02-25 14:30:29,070 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:30:40,023 ERROR c.g.b.SystemOperations [main] Employee 1 did not input a customer's ID when expected.
+2020-02-25 14:30:40,024 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:30:42,563 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 14:34:53,871 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 14:35:04,327 TRACE c.g.b.SystemOperations [main] Logged in Customer firstCustomer with ID 2
+2020-02-25 14:35:06,433 TRACE c.g.b.SystemOperations [main] Customer 2 viewed all their accounts.
+2020-02-25 14:35:06,433 TRACE c.g.b.SystemOperations [main] Logged in Customer firstCustomer with ID 2
+2020-02-25 14:35:11,517 ERROR c.g.b.SystemOperations [main] Customer 2 did not input a valid number.
+2020-02-25 14:35:11,517 TRACE c.g.b.SystemOperations [main] Logged in Customer firstCustomer with ID 2
+2020-02-25 14:35:18,990 ERROR c.g.b.SystemOperations [main] Customer 2 attempted to make a negative deposit to account 1
+2020-02-25 14:35:18,990 TRACE c.g.b.SystemOperations [main] Logged in Customer firstCustomer with ID 2
+2020-02-25 14:35:25,724 TRACE c.g.b.SystemOperations [main] Customer 2 deposited 20.0 into account 1
+2020-02-25 14:35:25,724 TRACE c.g.b.SystemOperations [main] Logged in Customer firstCustomer with ID 2
+2020-02-25 14:35:28,053 TRACE c.g.b.SystemOperations [main] Customer 2 logged out.
+2020-02-25 14:35:29,076 TRACE c.g.b.SystemOperations [main] System shutdown.
+2020-02-25 14:39:40,242 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 14:39:50,767 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 14:40:29,972 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:40:29,972 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:41:01,678 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 14:41:02,561 TRACE c.g.b.SystemOperations [main] System shutdown.
+2020-02-25 14:41:08,579 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 14:41:21,832 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 14:41:30,666 TRACE c.g.b.SystemOperations [main] Employee viewed all Customers
+2020-02-25 14:41:34,298 TRACE c.g.b.SystemOperations [main] Employee viewed Customer 2's accounts.
+2020-02-25 14:41:38,593 TRACE c.g.b.SystemOperations [main] Employee viewed Customer 6's accounts.
+2020-02-25 14:41:54,748 ERROR c.g.b.SystemOperations [main] Employee 1 did not input a valid ID.
+2020-02-25 14:41:57,634 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 14:41:58,829 TRACE c.g.b.SystemOperations [main] System shutdown.
+2020-02-25 21:59:05,464 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 21:59:27,818 TRACE c.g.b.SystemOperations [main] Logged in Customer firstCustomer with ID 2
+2020-02-25 21:59:34,847 TRACE c.g.b.SystemOperations [main] Customer 2 viewed all their accounts.
+2020-02-25 21:59:46,968 TRACE c.g.b.SystemOperations [main] Customer 2 deposited 5.5 into account 1
+2020-02-25 21:59:50,888 TRACE c.g.b.SystemOperations [main] Customer 2 viewed all their accounts.
+2020-02-25 22:00:01,402 TRACE c.g.b.SystemOperations [main] Customer 2 withdrew 1.0 from account 1
+2020-02-25 22:00:03,537 TRACE c.g.b.SystemOperations [main] Customer 2 viewed all their accounts.
+2020-02-25 22:00:07,678 TRACE c.g.b.SystemOperations [main] Customer 2 logged out.
+2020-02-25 22:00:12,279 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 22:00:16,559 TRACE c.g.b.SystemOperations [main] Employee viewed a log of all transactions.
+2020-02-25 22:01:11,209 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 22:01:16,478 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 22:01:18,464 TRACE c.g.b.SystemOperations [main] Employee viewed a log of all transactions.
+2020-02-25 22:01:26,062 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 22:01:27,129 TRACE c.g.b.SystemOperations [main] System shutdown.
+2020-02-25 22:02:17,054 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 22:02:28,136 TRACE c.g.b.SystemOperations [main] Logged in Customer ryan with ID 7
+2020-02-25 22:02:29,789 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:02:41,215 TRACE c.g.b.SystemOperations [main] Customer 7 applied for account titled checking with starting balance 500.0
+2020-02-25 22:02:47,108 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:02:49,578 TRACE c.g.b.SystemOperations [main] Customer 7 logged out.
+2020-02-25 22:02:53,063 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 22:03:11,218 TRACE c.g.b.SystemOperations [main] Employee gave review of true to application 5
+2020-02-25 22:03:15,582 TRACE c.g.b.SystemOperations [main] Employee viewed Customer 7's accounts.
+2020-02-25 22:03:18,221 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 22:03:21,575 TRACE c.g.b.SystemOperations [main] Logged in Customer ryan with ID 7
+2020-02-25 22:03:23,064 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:03:43,712 TRACE c.g.b.SystemOperations [main] Customer 7 deposited 20.0 into account 5
+2020-02-25 22:03:47,801 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:03:54,426 TRACE c.g.b.SystemOperations [main] Customer 7 withdrew 10.0 from account 5
+2020-02-25 22:03:56,020 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:04:08,851 TRACE c.g.b.SystemOperations [main] 
+2020-02-25 22:04:23,011 TRACE c.g.b.SystemOperations [main] System startup.
+2020-02-25 22:04:28,124 TRACE c.g.b.SystemOperations [main] Logged in Customer ryan with ID 7
+2020-02-25 22:04:35,295 ERROR c.g.b.SystemOperations [main] Customer 7 attempted to overdraw from account 5
+2020-02-25 22:04:37,507 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:04:45,426 ERROR c.g.b.SystemOperations [main] Customer 7 attempted to make a negative withdrawal from account 5
+2020-02-25 22:04:47,153 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:05:04,902 TRACE c.g.b.SystemOperations [main] Customer 7 applied for account titled savings with starting balance 2000.0
+2020-02-25 22:05:08,826 TRACE c.g.b.SystemOperations [main] Customer 7 logged out.
+2020-02-25 22:05:13,055 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 22:05:28,868 TRACE c.g.b.SystemOperations [main] Employee gave review of true to application 6
+2020-02-25 22:05:31,181 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 22:05:34,218 TRACE c.g.b.SystemOperations [main] Logged in Customer ryan with ID 7
+2020-02-25 22:05:35,530 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:05:51,369 TRACE c.g.b.SystemOperations [main] Customer 7 posted a transfer from account 6 to account 5 for amount of 490.0
+2020-02-25 22:05:53,778 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their pending transactions.
+2020-02-25 22:06:01,179 TRACE c.g.b.SystemOperations [main] Customer 7 gave review of true to transfer 5
+2020-02-25 22:06:02,861 TRACE c.g.b.SystemOperations [main] Customer 7 viewed all their accounts.
+2020-02-25 22:06:15,591 TRACE c.g.b.SystemOperations [main] Customer 7 logged out.
+2020-02-25 22:06:22,561 TRACE c.g.b.SystemOperations [main] Logged in Employee george with ID 1
+2020-02-25 22:06:24,277 TRACE c.g.b.SystemOperations [main] Employee viewed a log of all transactions.
+2020-02-25 22:06:36,360 TRACE c.g.b.SystemOperations [main] Employee logged out.
+2020-02-25 22:06:51,838 TRACE c.g.b.SystemOperations [main] Logged in Customer firstTimeBanker with ID 15

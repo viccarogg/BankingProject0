@@ -9,9 +9,15 @@ public class Audit {
 	
 	@Override
 	public String toString() {
-		String toPlaceholder = account_to_id == 0 ? "N/A" : Integer.toString(account_to_id);
-		return "Transaction ID: " + transaction_id + " - Type: " + type + " - From ID: " + account_from_id
-				+ " - To ID:" + toPlaceholder + " - Amount: " + amount;
+		String result = "Transaction ID: " + transaction_id + "\t- Type: " + type + "  \t- From ID: ";
+		if(type.equals("WITHDRAW"))
+			result += account_from_id + "\t- To ID: .\t- Amount: " + -amount;
+		else if(type.equals("DEPOSIT"))
+			result += ". \t- To ID: " + account_from_id + "\t- Amount: " + amount;
+		else	
+			return "Transaction ID: " + transaction_id + "\t- Type: " + type + "\t- From ID: " + account_from_id
+				+ "\t- To ID: " + account_to_id + "\t- Amount: " + amount;
+		return result;
 	}
 
 	public int getTransaction_id() {

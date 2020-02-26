@@ -16,6 +16,9 @@ public class BankOperations {
 	static TransferDAO transferDB = new TransferDB();
 
 	public static void withdraw(Account a, double amount) {
+		if(a.getId() < 0) {
+			throw new InvalidIDException("ID cannot be negative.");
+		}
 		double bal = a.getBalance();
 		if(amount > bal) 
 			throw new OverdrawException("Insufficient funds.");
@@ -25,6 +28,9 @@ public class BankOperations {
 			accountDB.updateBalance(a, bal - amount);
 	}
 	public static void deposit(Account a, double amount) {
+		if(a.getId() < 0) {
+			throw new InvalidIDException("ID cannot be negative.");
+		}
 		double bal = a.getBalance();
 		if(amount < 0) 
 			throw new NegativeTransactionException("Please enter a nonnegative value");

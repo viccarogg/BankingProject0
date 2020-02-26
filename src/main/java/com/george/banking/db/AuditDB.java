@@ -22,7 +22,7 @@ public class AuditDB implements AuditDAO {
 	@Override
 	public Collection<Audit> getAudits() {
 		Collection<Audit> result = new ArrayList<Audit>();
-		String sql = "SELECT * FROM audits";
+		String sql = "SELECT * FROM audits ORDER BY transaction_id ASC";
 		try {
 			pstmt = conn.prepareStatement(sql);
 			rs = pstmt.executeQuery();

@@ -49,8 +49,9 @@ public class AccountDB implements AccountDAO {
 			rs = pstmt.executeQuery();
 			
 			while(rs.next())
-				result = new Account(account_id, rs.getString("account_name"), rs.getDouble("balance"), false);
+				result = new Account(account_id, rs.getString("account_name"), rs.getDouble("balance"), rs.getInt("is_application") == 1);
 		} catch (SQLException e) {
+//			System.out.println("this is the exception spot");
 			e.printStackTrace();
 		}
 		return result;
